@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+.content-top {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.textmain {
+    font-size: 150%;
+    margin: auto;
+    width: 50%;
+    color: darkslateblue;
+    text-align: center;
+}
+
+.tos-content {
+    color: darkslateblue;
+}
+
+.tos-content h1, h2 {
+    text-align: center;
+}
+
+.tos-content h1 {
+    border-bottom: thin solid darkslateblue;
+}
+
+.tos-content a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.37);
+}
+
+.tos-content a:hover {
+    text-decoration: underline;
+    color: slateblue
+}
+
+.maincontent {
+    margin: auto;
+    width: 50%;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.list-license {
+    text-align: left;
+    border: thin solid darkslateblue;
+    border-radius: 4px;
+}
+
+.list-license p {
+    padding-left: 10px;
+}
+
+.last-p {
+    padding-bottom: 25px;
+}
+
+.footer, .push{
+    height: 50px;
+}
+
+.footer {
+    color: black;
+    background-color: darkslateblue;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
